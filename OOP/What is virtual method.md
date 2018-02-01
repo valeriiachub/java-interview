@@ -1,0 +1,2 @@
+**What is virtual method?**
+A virtual method is an inheritable and overridable method. In short, a virtual function defines a target function to be executed, but the target might not be known at compile time.

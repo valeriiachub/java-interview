@@ -1,0 +1,2 @@
+## List Spring Data repositories
+![enter image description here](https://www.evernote.com/shard/s736/sh/1e970c1c-fccd-454c-9dc3-acf16d2f8467/b446d7f051f922bf/res/ca152c4a-f3c2-4266-b10a-8262f8322f5c/Untitled%20Diagram.jpg?resizeSmall&width=832&alpha=)

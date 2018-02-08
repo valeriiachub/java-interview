@@ -1,0 +1,2 @@
+**What is ext section for?**
+`ext` is shorthand for `project.ext`, and is used to define extra properties for the `project`  object.(It's also possible to define extra properties for many other objects). When reading an extra property, the `ext.` is omitted(e.g. println project.springVersion or println springVersion). The same works from within methods. It does not make sense to declare a method named `ext`.

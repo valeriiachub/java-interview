@@ -1,0 +1,17 @@
+## Count how many users belongs to each role
+![enter image description here](https://img.shields.io/badge/Source-CHI%20Software-blue.svg)
+
+You have two tables
+![enter image description here](https://image.ibb.co/mX03iH/Screenshot_2018_02_23_13_13_37.png)
+
+You need count how many users have each role. So output table will look like this:
+![enter image description here](https://image.ibb.co/jAMUqx/Screenshot_2018_02_23_13_15_59.png)
+
+**Solution:**
+The first step is to join the tables in order to map user to its roles:
+
+    SELECT users.`name`, user_roles.`name`  FROM users INNER JOIN user_roles ON users.role_id = user_roles.id;
+
+The second step is to count entrance of which user_roles.name in the table
+
+

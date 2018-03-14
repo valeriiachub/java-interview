@@ -1,0 +1,2 @@
+## What is stream pipeline?
+A stream can be visualized as a pipeline. A stream pipeline consists of a **source** (which might be an array, a collection, a generator function, an I/O channel, etc.), **zero or more intermediate operations** (which transform a stream into another stream, such as filter(Predicate)), and a **terminal operatio**n (which produces a result or side-effect, such as count() or forEach(Consumer)).

@@ -1,0 +1,8 @@
+`TreeMap` is an example of a `SortedMap`. Tree structure, based on compareTo() implementation, O(log(N)) runtime complexity for 
+inserting and searching, sorted.
+
+`HashMap`lookup-array structure, based on hashCode(), equals() implementations, O(1) runtime complexity for inserting and searching, 
+unsorted.
+
+You should choose `TreeMap` when you need to extract submaps with an upper or lower bound on the key, find the minimum or maximum keys, 
+or find keys closest to a given key. Or when you want to sort the map according to some `Comparator` definition.
